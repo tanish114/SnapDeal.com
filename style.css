@@ -1,1 +1,196 @@
- 
+ *{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+ }
+ /* TOP PANNEL START */
+ #navbar{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ #top{
+    display: flex;
+   gap: 30px;
+   padding-right: 20px;
+ }
+ #navbar p{
+    color: aliceblue;
+    font: bold;
+    
+ }
+
+ /* TOP PANNEL END */
+
+ /* SEARCH PANNEL */
+ #search{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(240, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+ #search img{
+    height: 50px;
+    width: 200px;
+   background-color: aliceblue;
+    
+ }
+.search {
+   
+   box-sizing: border-box;
+   border: 1px solid rgba(0, 0, 0, 0.473);
+   height: 20px;
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.search p{
+  color: rgba(240, 248, 255, 0.507);
+  
+}
+.black{
+   width: 80px;
+   box-sizing: border-box;
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   border: 1px solid rgba(0, 0, 0, 0.473);
+}
+.cart{
+   color: aliceblue;
+}
+/* SEARCH PANNEL END */
+
+/* CENTER SECTION START */
+
+#main{
+   height: 500px;
+   width: 80%;
+   margin-left: 130px;
+  padding-bottom: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+/* LEFT SIDE BOX START */
+.top-category{
+   height: 300px;
+   width: 200px;
+   background-color: rgba(128, 128, 128, 0.61);
+   
+   
+}
+.mens{
+   display: flex;
+   gap: 25px;
+   justify-content: space-around;
+   padding-top: 25px;
+   padding-left: 20px;
+}
+.mens img{
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+}
+.mens p{
+   color: gray;
+   font-size: smaller;
+}
+
+.women{
+   display: flex;
+   gap: 25px;
+   justify-content: space-around;
+   padding-top: 25px;
+   padding-left: 20px;
+}
+.women img{
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+}
+.women p{
+   color: gray;
+   font-size: smaller;
+}
+
+.home{
+   display: flex;
+   gap: 25px;
+   justify-content: space-around;
+   padding-top: 25px;
+   padding-left: 20px;
+   
+}
+.home img{
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+}
+.home p{
+   color: gray;
+   font-size: smaller;
+   
+}
+
+.toys{
+   display: flex;
+   gap: 25px;
+   justify-content: space-around;
+   padding-top: 25px;
+   padding-left: 20px;
+   
+}
+.toys img{
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+}
+.toys p{
+   color: gray;
+   font-size: smaller;
+   
+}
+
+.beauty{
+   display: flex;
+   gap: 25px;
+   justify-content: space-around;
+   padding-top: 25px;
+   padding-left: 20px;
+   
+}
+.beauty img{
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+}
+.beauty p{
+   color: gray;
+   font-size: smaller;
+   
+}
+/* LEFT SIDE BOX END */
+
+/* CENTRE AD BOX START */
+.ad{
+   height: 300px;
+   width: 500px;
+   border: 1px solid black;
+}
+
+.pincode{
+height: 300px;
+   width: 200px;
+   border: 1px solid black;
+}
