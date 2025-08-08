@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
  }
+ #full{
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+ }
  /* TOP PANNEL START */
  #navbar{
     height: 30px;
@@ -34,6 +39,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: absolute;
+    z-index: 9999;
     
  }
  #search img{
@@ -74,10 +81,11 @@
 /* CENTER SECTION START */
 
 #main{
-   height: 500px;
+   height: 300px;
    width: 80%;
    margin-left: 130px;
-  padding-bottom: 150px;
+   padding-top: 50px;
+
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -186,11 +194,225 @@
 .ad{
    height: 300px;
    width: 500px;
-   border: 1px solid black;
+   background-image: url(pexels-max-fischer-5872348.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .pincode{
 height: 300px;
    width: 200px;
-   border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pincode button{
+   width: 170px;
+   background-color: aliceblue;
+}
+.pincode button p{
+   color: rgba(0, 0, 0, 0.582);
+}
+.pincode p{
+   color:  rgba(0, 0, 0, 0.582);
+}
+.icon{
+   height: 300px;
+   width: 100%;
+   background-image: url(pexels-ingo-35969.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+H3{
+   margin-top: 40px;
+   margin-left: 300px;
+}
+
+/* TRENDING SECTION BEGINS FROM HERE */
+.trending{
+   display: flex;
+   align-items: center;
+   justify-content:center
+}
+
+.box1{
+   height: 200px;
+   width: 200px;
+  
+}
+.box1 img{
+   height: 150px;
+   width: 100%;
+}
+.box1 p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(128, 128, 128, 0.603);
+}
+.box2{
+   height: 200px;
+   width: 200px;
+  
+   
+} 
+.box2 img{
+   height: 150px;
+   width: 100%;
+}
+.box2 p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(128, 128, 128, 0.603);
+}
+.box3{
+   height: 200px;
+   width: 200px;
+  
+   
+}
+.box3 img{
+   height: 150px;
+   width: 100%;
+}
+.box3 p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(128, 128, 128, 0.603);
+}
+.box4{
+   height: 200px;
+   width: 200px;
+ 
+   
+}
+.box4 img{
+   height: 150px;
+   width: 100%;
+}
+.box4 p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(128, 128, 128, 0.603);
+}
+   /* TRENING SECTION END */
+
+   /* TRUST PAY SECTION BEGIN */
+
+#trust{
+   height: 200px;
+   width: 90%;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   margin-left: 65px;
+   margin-top: 20px;
+}
+.safe{
+   height: 100%;
+   width: 150px;
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+   
+
+}
+.safe i{
+   font-size: 70px;
+   
+}
+.safe h1{
+   font-size: 15px;
+}
+.safe p{
+   font-size: smaller;
+   color: rgba(128, 128, 128, 0.836);
+}
+
+.trustpay{
+   height: 100%;
+   width: 150px;
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+   
+
+}
+.trustpay i{
+   font-size: 70px;
+   
+}
+.trustpay h1{
+   font-size: 15px;
+}
+.trustpay p{
+   font-size: smaller;
+   color: rgba(128, 128, 128, 0.836);
+}
+
+.help{
+   height: 100%;
+   width: 150px;
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+   
+
+}
+.help i{
+   font-size: 70px;
+   
+}
+.helpy h1{
+   font-size: 15px;
+}
+.help p{
+   font-size: smaller;
+   color: rgba(128, 128, 128, 0.836);
+}
+
+.app{
+   height: 100%;
+   width: 150px;
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+   
+
+}
+.app i{
+   font-size: 70px;
+   
+}
+.apph1{
+   font-size: 15px;
+}
+.app p{
+   font-size: smaller;
+   color: rgba(128, 128, 128, 0.836);
+}
+
+/* TRUST PAY SECTION END */
+#footer{
+   margin-top: 30px;
+   height: 40px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.social{
+   display: flex;
+  gap: 40px;
+  font-size: xx-large;
+}
+.copyright{
+   margin-right: 100px;
 }
